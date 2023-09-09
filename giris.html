@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="icon" href="images/Udemig.png">
+    <title>Giriş Yap - Udemig</title>
+    <style>
+        body {
+          background: url(/images/doga-foto.jpeg);
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        
+        ul {
+          list-style: none;
+        }
+
+        .abone-btn {
+          white-space: nowrap;
+        }
+
+        .abone-btn:hover {
+          scale: 1.1;
+          background: crimson;
+          border-radius: 20px;
+          transition: all 0.4s;
+        }
+
+        .btn-group button:hover {
+          scale: 1.1;
+          background: crimson;
+          border-radius: 20px;
+          transition: all 0.4s;
+        }
+
+        .body {
+          /* From https://css.glass */
+          background: rgba(255, 255, 255, 0.2);
+          border-radius: 16px;
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(5.2px);
+          -webkit-backdrop-filter: blur(5.2px);
+          border: 1px solid rgba(255, 255, 255, 0.3);
+          align-items: center;
+          width: 400px;
+          margin-left: 350px;
+        }
+
+        .body-1 {
+          /* From https://css.glass */
+          background: rgba(255, 255, 255, 0.2);
+          border-radius: 5px;
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(5.2px);
+          -webkit-backdrop-filter: blur(5.2px);
+          border: 1px solid rgba(255, 255, 255, 0.3);
+          align-items: center;
+          width: 400px;
+          margin-left: 350px;
+          cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+      <form>
+        <div class="container">
+          <div class="head">
+            <a class="d-flex flex-column align-items-center my-5 text-decoration-none text-secondary fs-5 fw-bold" href="/index.html">
+              <img src="/images/udemig-2.png" style="width: 70px;">
+              Udemig.com
+            </a>
+          </div>
+          <div class="body d-flex align-items-center flex-column gap-3 p-4">
+            <input type="text" class="form-control" style="width: 300px;" placeholder="Adınız">
+            <input type="email" class="form-control" style="width: 300px;" placeholder="E-posta">
+            <button class="btn btn-primary w-100">Giriş Yap</button>
+          </div>
+          <p class="lead text-light text-center">veya</p>
+          <div class="d-flex flex-column gap-3">
+            <div class="body-1 d-flex justify-content-center align-items-center gap-5">
+              <img style="height: 20px;" src="/images/google.png" />
+              <h5 class="text-light">Google</h5>
+            </div>
+            <div class="body-1 d-flex justify-content-center align-items-center gap-5">
+              <img style="height: 20px;" src="/images/facebook.png" />
+              <h5 class="text-light">Facebook</h5>
+            </div>
+            <div class="body-1 d-flex justify-content-center align-items-center gap-5">
+              <img style="width: 20px;" src="/images/github.png" />
+              <h5 class="text-light">Github</h5>
+            </div>
+          </div>
+        </div>
+      </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
